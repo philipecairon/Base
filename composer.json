@@ -1,0 +1,23 @@
+{
+  "name"        :"Base",
+  "keywords"    : ["base", "framework"],
+  "authors"     : [
+    {
+      "name"    : "Philipe Cairon",
+      "email"   : "philipecairon@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "php-activerecord/php-activerecord": "dev-master"
+  },
+  "autoload"  : {
+    "psr-0"   : {
+      "app"   : "/",
+      "config": "/"
+    }
+  },
+  "config"    : {
+    "bin-dir" : "bin"
+  }
+}
